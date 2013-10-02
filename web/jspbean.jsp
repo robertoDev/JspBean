@@ -18,6 +18,7 @@
   <body>
 
 <%if(user.getName()==null){%>
+Type a user datail info: <br>
 <form method="post">
     <input type="text" name="name"/> name
     <br>
